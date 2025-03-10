@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Signup Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            text-align: center;
+        }
+
+        .container {
+            max-width: 400px;
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        input, select {
+            width: 100%;
+            max-width: 360px;
+            height: 50px;
+            margin-top: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: blue;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body background="images/background.png">
+    <div class="container">
+        <img src="images/Googlelogo.png" alt="Google Logo" width="135" height="50">
+        <h2>Basic Information</h2>
+        <h3>Enter your birthday and gender</h3>
+
+        <form>
+            <input type="text" placeholder="Day" style="width: 110px;">
+            <input type="text" placeholder="Month" style="width: 110px;">
+            <input type="text" placeholder="Year" style="width: 110px;">
+            <br><br>
+            <select name="Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Translucent">Translucent</option>
+            </select>
+            <br><br>
+            <a href="ChooseGmail.html" class="btn">Next</a>
+        </form>
+    </div>
+</body>
+</html>

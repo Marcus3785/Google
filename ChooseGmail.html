@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Choose Gmail</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            text-align: center;
+        }
+
+        .container {
+            max-width: 400px;
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        input[type="radio"] {
+            margin: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: blue;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body background="images/background.png">
+    <div class="container">
+        <img src="images/Googlelogo.png" alt="Google Logo" width="135" height="50">
+        <h1><b><small>Choose your Gmail address</small></b></h1>
+        <h3><small>Pick a Gmail address or create your own</small></h3>
+
+        <form>
+            <input type="radio" name="email"> <big>demo123@gmail.com</big><br><hr>
+            <input type="radio" name="email"> <big>test321@gmail.com</big><br><hr>
+            <input type="radio" name="email"> <big>view@121gmail.com</big><br><hr><br>
+        </form>
+
+        <a href="CreatePassword.html" class="btn">Next</a>
+    </div>
+</body>
+</html>
